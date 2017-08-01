@@ -36,7 +36,6 @@ public class Hello implements RequestHandler<String, Author> {
 		return conn;
 	}
 
-	@Override
 	public Author handleRequest(String inputStream, Context context) {
 		System.out.println("Hello");
 		//BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
@@ -94,3 +93,4 @@ public class Hello implements RequestHandler<String, Author> {
 	}
 
 }
+
